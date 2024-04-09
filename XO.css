@@ -1,0 +1,88 @@
+body{
+    background-color:aquamarine;
+}
+#kontener{
+    height:700px;
+	margin-left:auto;
+	margin-right:auto;
+    -webkit-user-select: none;
+	-khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.logo{
+	width:308px;
+    height:158px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+}
+#wynik{
+	margin-left:auto;
+	margin-right:auto;
+	width: 160px;
+	color: white;
+	font-weight: 700;
+	margin-bottom:20px;
+	text-align: center;
+	font-size: 50px;
+	background-color:#60d4ad;
+	padding:5px;
+	border-radius: 10px;
+}
+#plansza{
+    width:360px;
+    height:360px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#60d4ad;
+	padding:5px;
+	border-radius: 10px;
+}
+.XO{
+	float: left;
+	width:114px;
+    height:114px;
+	margin:3px;
+	border-radius:10px;
+}
+.XO:hover, .bottom-o:hover{
+	filter: brightness(90%);
+}
+.imgz{
+	width:80px;
+    height:80px;
+}
+.option{
+	width: 114px;
+	float: left;
+	margin:3px;
+	border-radius:10px;
+	background-color: aqua;
+	text-align: center;
+	color: Black;
+	font-weight: 600;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 45.5px 0;
+}
+#bottom{
+	margin-top:7px;
+	background-color: #60d4ad;
+	border-radius: 10px;
+	padding: 7px 0;
+	color:white;
+	font-weight: 900;
+	font-size: 20px;
+	width: 200px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	left: -82.5px;
+}
+.bottom-o{
+	text-decoration: none;
+	color: white;
+}
