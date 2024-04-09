@@ -7,12 +7,12 @@
         <link rel="icon" href="Ttt\logomini.png">
     </head>
     <body>
-        <div id="kontener">
+        <div id="contener">
 			<div class="logo">
                 <img class="logo" width="500" height="300" src="Ttt\LOGO.png" alt="">
             </div>
-            <div id="wynik">0 : 0</div>
-            <div class="top" id="plansza">
+            <div id="score">0 : 0</div>
+            <div class="top" id="map">
                 <button id="0" onclick="postaw(0); " class="XO"><img class="imgz" src="Ttt/null.png" alt=""></button>
                 <button id="1" onclick="postaw(1);" class="XO"><img class="imgz" src="Ttt/null.png" alt=""></button>
                 <button id="2" onclick="postaw(2);" class="XO"><img class="imgz" src="Ttt/null.png" alt=""></button>
@@ -113,7 +113,7 @@
             }
             function reset(){
                 var x = 0;
-                document.getElementById("wynik").innerHTML = wynikP+" : "+wynikB;
+                document.getElementById("score").innerHTML = wynikP+" : "+wynikB;
                 pole = [0, 0, 0, 0, 0, 0, 0, 0, 0];
                 while(x < 9){
                     document.getElementById(x).innerHTML = '<img class="imgz" src="Ttt/null.png" alt=""></img>';

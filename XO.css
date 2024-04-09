@@ -1,7 +1,7 @@
-body{
+body {
     background-color:aquamarine;
 }
-#kontener{
+#contener {
     height:700px;
 	margin-left:auto;
 	margin-right:auto;
@@ -11,14 +11,14 @@ body{
     -ms-user-select: none;
     user-select: none;
 }
-.logo{
+.logo {
 	width:308px;
     height:158px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom:50px;
 }
-#wynik{
+#score {
 	margin-left:auto;
 	margin-right:auto;
 	width: 160px;
@@ -31,7 +31,7 @@ body{
 	padding:5px;
 	border-radius: 10px;
 }
-#plansza{
+#map {
     width:360px;
     height:360px;
 	margin-left:auto;
@@ -40,21 +40,21 @@ body{
 	padding:5px;
 	border-radius: 10px;
 }
-.XO{
+.XO {
 	float: left;
 	width:114px;
     height:114px;
 	margin:3px;
 	border-radius:10px;
 }
-.XO:hover, .bottom-o:hover{
+.XO:hover, .bottom-o:hover {
 	filter: brightness(90%);
 }
-.imgz{
+.imgz {
 	width:80px;
     height:80px;
 }
-.option{
+.option {
 	width: 114px;
 	float: left;
 	margin:3px;
@@ -67,7 +67,7 @@ body{
 	text-decoration: none;
 	padding: 45.5px 0;
 }
-#bottom{
+#bottom {
 	margin-top:7px;
 	background-color: #60d4ad;
 	border-radius: 10px;
@@ -82,7 +82,7 @@ body{
 	position: relative;
 	left: -82.5px;
 }
-.bottom-o{
+.bottom-o {
 	text-decoration: none;
 	color: white;
 }
